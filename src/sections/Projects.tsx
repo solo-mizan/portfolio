@@ -71,7 +71,7 @@ export const ProjectsSection = () => {
                 style={{ backgroundImage: `url(${grainImage.src})` }}
               ></div>
               <div className="lg:gap-16 lg:grid lg:grid-cols-2">
-                <div className="">
+                <div className="lg:pb-16">
                   <div className="inline-flex gap-2 bg-clip-text bg-gradient-to-r from-emerald-300 to-sky-400 font-bold text-sm text-transparent uppercase tracking-widest">
                     <span>{project.company}</span>
                     <span>&bull;</span>
@@ -83,7 +83,10 @@ export const ProjectsSection = () => {
                   <hr className="border-white/10 mt-4 md:mt-5 border-t-2" />
                   <ul className="flex flex-col gap-3 mt-4 md:mt-5">
                     {project.results.map((result) => (
-                      <li className="inline-flex gap-2 text-sm text-white/50 md:text-base">
+                      <li
+                        key={result.title}
+                        className="inline-flex gap-2 text-sm text-white/50 md:text-base"
+                      >
                         <CheckCircleIcon className="size-5 md:size-6" />
                         <span>{result.title}</span>
                       </li>
@@ -96,11 +99,11 @@ export const ProjectsSection = () => {
                     </button>
                   </a>
                 </div>
-                <div>
+                <div className="relative">
                   <Image
                     src={project.image}
                     alt={project.title}
-                    className="mt-8 lg:mt-0 -mb-4 md:mb-0"
+                    className="lg:absolute mt-8 lg:mt-0 -mb-4 md:mb-0 lg:w-auto lg:max-w-none lg:h-full"
                   />
                 </div>
               </div>
