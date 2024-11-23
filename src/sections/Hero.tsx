@@ -11,7 +11,7 @@ export const HeroSection = () => {
     <div className="relative z-0 py-32 md:py-48 lg:py-60 overflow-x-clip">
       <div className="[mask-image:linear-gradient(to_bottom,transparent,black_10%,black_70%,transparent)] absolute inset-0">
         <div
-          className="-z-10 absolute inset-0 opacity-10"
+          className="-z-10 absolute inset-0 opacity-5"
           style={{ backgroundImage: `url(${grainImage.src})` }}
         ></div>
         <div className="hero-ring size-[620px]"></div>
@@ -23,7 +23,7 @@ export const HeroSection = () => {
             orbitDuration?: string;
          */}
         <HeroOrbit
-          size={430}
+          size={800}
           rotation={20}
           shouldOrbit
           orbitDuration="30s"

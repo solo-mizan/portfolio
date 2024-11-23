@@ -16,8 +16,8 @@ const hindSiliguri = Hind_Siliguri({
 });
 
 export const metadata: Metadata = {
-  title: "My Portfolio",
-  description: "Created with the help of Frontend Tribe",
+  title: "Muhammad Mizan",
+  description: "Fullstack engineer from Rajshahi",
 };
 
 export default function RootLayout({
