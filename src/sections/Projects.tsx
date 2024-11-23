@@ -56,11 +56,14 @@ export const ProjectsSection = () => {
           title="Featured Projects"
           description="See how I transformed concepts into engaging digital experiences."
         />
-        <div className="flex flex-col gap-16 mt-8 md:mt-16">
-          {portfolioProjects.map((project) => (
+        <div className="flex flex-col gap-20 mt-10 md:mt-20">
+          {portfolioProjects.map((project, projectIndex) => (
             <Card
+              style={{
+                top: `calc(64px + ${projectIndex * 20}px`,
+              }}
               key={project.title}
-              className="mx-auto px-8 md:px-10 lg:px-20 p-6 pt-8 md:pt-12 pb-0 lg:pt16"
+              className="top-0 px-8 md:px-10 lg:px-20 p-6 pt-8 md:pt-12 pb-0 lg:pt16 sticky"
             >
               <div className="lg:gap-16 lg:grid lg:grid-cols-2">
                 <div className="lg:pb-16">

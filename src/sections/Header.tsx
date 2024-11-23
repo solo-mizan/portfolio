@@ -1,7 +1,7 @@
 export const Header = () => {
   return (
-    <div className="relative z-10 flex justify-center items-center top-3">
-      <nav className="flex gap-1 border border-white/15 rounded-full bg-white/10 backdrop-blur">
+    <div className="top-3 left-1/2 z-10 fixed flex justify-center items-center mx-auto -translate-x-1/2">
+      <nav className="flex gap-1 border-white/15 bg-white/10 backdrop-blur mx-auto border rounded-full">
         <a href="#" className="nav-item">
           Home
         </a>
@@ -13,7 +13,7 @@ export const Header = () => {
         </a>
         <a
           href="#"
-          className="nav-item bg-white text-gray-900 hover:bg-white/70 hover:text-gray-900"
+          className="bg-white hover:bg-white/70 text-gray-900 hover:text-gray-900 nav-item"
         >
           Contact
         </a>
