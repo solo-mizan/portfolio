@@ -10,39 +10,39 @@ import { Card } from "@/components/Card";
 
 const portfolioProjects = [
   {
-    company: "Acme Corp",
-    year: "2022",
-    title: "Dark Saas Landing Page",
+    company: "Falcon Inc.",
+    year: "2024",
+    title: "Biyesaadi (Matrimonial Web App)",
     results: [
       { title: "Enhanced user experience by 40%" },
       { title: "Improved site speed by 50%" },
       { title: "Increased mobile traffic by 35%" },
     ],
-    link: "https://youtu.be/4k7IdSLxh6w",
+    link: "https://biyesaadi.vercel.app/",
     image: darkSaasLandingPage,
   },
   {
-    company: "Innovative Co",
-    year: "2021",
-    title: "Light Saas Landing Page",
+    company: "ETMMAM Co.",
+    year: "2024",
+    title: "Multivendor Business Buy Sell",
     results: [
       { title: "Boosted sales by 20%" },
       { title: "Expanded customer reach by 35%" },
       { title: "Increased brand awareness by 15%" },
     ],
-    link: "https://youtu.be/7hi5zwO75yc",
+    link: "https://etmmam-frontend.vercel.app/",
     image: lightSaasLandingPage,
   },
   {
-    company: "Quantum Dynamics",
-    year: "2023",
-    title: "AI Startup Landing Page",
+    company: "Group Project",
+    year: "2022",
+    title: "Shohoj Pay",
     results: [
       { title: "Enhanced user experience by 40%" },
       { title: "Improved site speed by 50%" },
       { title: "Increased mobile traffic by 35%" },
     ],
-    link: "https://youtu.be/Z7I5uSRHMHg",
+    link: "https://shohoj-pay-app.web.app/",
     image: aiStartupLandingPage,
   },
 ];
