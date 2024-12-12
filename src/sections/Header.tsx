@@ -11,13 +11,11 @@ export const Header = () => {
         <a href="#about" className="nav-item">
           About
         </a>
-        <a
-          href="#contact"
-          className="bg-white hover:bg-white/70 text-gray-900 hover:text-gray-900 nav-item"
-        >
+        <a href="#contact" className="">
           Contact
         </a>
       </nav>
+      {/* bg-white hover:bg-white/70 text-gray-900 hover:text-gray-900 nav-item */}
     </div>
   );
 };
