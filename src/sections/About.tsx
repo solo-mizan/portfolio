@@ -12,8 +12,8 @@ import GithubIcon from "@/assets/icons/github.svg";
 import ReactIcon from "@/assets/icons/react.svg";
 import ChromeIcon from "@/assets/icons/chrome.svg";
 import ToolsIcon from "@/components/ToolsIcon";
-import mapImg from "@/assets/images/real-map.png";
-import smileMemoji from "@/assets/images/memoji-smile.png";
+import mapImg from "@/assets/images/rajshahiMap.png";
+import mizanImage from "@/assets/images/mizan.png";
 import { CardHeader } from "@/components/CardHeader";
 import { ToolboxItems } from "@/components/ToolboxItems";
 import { motion } from "framer-motion";
@@ -29,8 +29,8 @@ const HOBBIES = [
   {
     title: "Walking",
     emoji: "🚶",
-    left: "5%",
-    top: "50%",
+    left: "55%",
+    top: "5%",
   },
   {
     title: "Riding",
@@ -187,13 +187,13 @@ export const AboutSection = () => {
                 alt="map"
                 className="object-left-top w-full h-full object-cover"
               />
-              <div className="top-1/2 left-1/2 absolute after:absolute after:inset-0 after:content-[''] rounded-full after:rounded-full -translate-x-1/2 -translate-y-1/2 size-20 after:outline after:outline-2 after:-outline-offset-2 after:outline-gray-950/30">
+              <div className="top-1/2 left-1/2 absolute after:absolute after:inset-0 after:content-[''] rounded-full after:rounded-full -translate-x-1/2 -translate-y-1/2 after:outline after:outline-2 after:-outline-offset-2 after:outline-gray-950/30 size-36">
                 <div className="-z-20 absolute inset-0 bg-gradient-to-r from-emerald-300 to-sky-400 rounded-full animate-ping [animation-duration:2s]"></div>
                 <div className="-z-10 absolute inset-0 bg-gradient-to-r from-emerald-300 to-sky-400 rounded-full"></div>
                 <Image
-                  src={smileMemoji}
+                  src={mizanImage}
                   alt="smile emoji"
-                  className="size-20"
+                  className="rounded-full size-36"
                 />
               </div>
             </Card>
