@@ -1,25 +1,37 @@
-import darkSaasLandingPage from "@/assets/images/dark-saas-landing-page.png";
-import lightSaasLandingPage from "@/assets/images/light-saas-landing-page.png";
-import aiStartupLandingPage from "@/assets/images/ai-startup-landing-page.png";
+import biyesaadiImage from "@/assets/images/biyesaadi-homepage.jpg"
+import soronikaImage from "@/assets/images/soronika-homepage.png"
+import etmmamImage from "@/assets/images/etmmam-homepage.jpg";
+import shohojPayImage from "@/assets/images/shohoj-pay-homepage.jpg";
 import Image from "next/image";
 import CheckCircleIcon from "@/assets/icons/check-circle.svg";
 import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
-import grainImage from "@/assets/images/grain.jpg";
 import { SectionHeader } from "@/components/SectionHeader";
 import { Card } from "@/components/Card";
 
 const portfolioProjects = [
   {
-    company: "Falcon Inc.",
+    company: "Biyesaadi Ltd.",
     year: "2024",
     title: "Biyesaadi (Matrimonial Web App)",
     results: [
-      { title: "Enhanced user experience by 40%" },
-      { title: "Improved site speed by 50%" },
-      { title: "Increased mobile traffic by 35%" },
-    ],
+  { title: "Connected couples through verified profiles" },
+  { title: "Enhanced matchmaking with advanced search filters" },
+  { title: "Built a positive, inclusive space for singles" },
+],
     link: "https://biyesaadi.vercel.app/",
-    image: darkSaasLandingPage,
+    image: biyesaadiImage,
+  },
+  {
+    company: "Soronika Org.",
+    year: "2025",
+    title: "Soronika (Deceased Persons Database)",
+    results: [
+  { title: "Preserved memories with multi-calendar death dates" },
+  { title: "Automated yearly SMS reminders for loved ones" },
+  { title: "Secure admin dashboard for memorial management" },
+],
+    link: "https://soronika.vercel.app/",
+    image: soronikaImage,
   },
   {
     company: "ETMMAM Co.",
@@ -31,19 +43,19 @@ const portfolioProjects = [
       { title: "Increased brand awareness by 15%" },
     ],
     link: "https://etmmam-frontend.vercel.app/",
-    image: lightSaasLandingPage,
+    image: etmmamImage,
   },
   {
     company: "Group Project",
     year: "2022",
     title: "Shohoj Pay",
     results: [
-      { title: "Enhanced user experience by 40%" },
-      { title: "Improved site speed by 50%" },
-      { title: "Increased mobile traffic by 35%" },
-    ],
+  { title: "Enabled quick and secure digital payments worldwide" },
+  { title: "Offered savings, loans, and eCheck services in one app" },
+  { title: "Improved user trust with strong security and 24/7 support" },
+],
     link: "https://shohoj-pay-app.web.app/",
-    image: aiStartupLandingPage,
+    image: shohojPayImage,
   },
 ];
 
