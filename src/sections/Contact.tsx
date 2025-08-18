@@ -1,5 +1,6 @@
 import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
 import grainImg from "@/assets/images/grain.jpg";
+import Link from "next/link";
 
 export const ContactSection = () => {
   return (
@@ -20,11 +21,24 @@ export const ContactSection = () => {
                 discuss how I can help you achieve your goals.
               </p>
             </div>
-            <div>
-              <button className="inline-flex items-center gap-2 border-gray-900 bg-gray-900 px-6 border rounded-xl w-max h-12 text-white">
-                <span className="font-semibold uppercase">Contact Me</span>
+            <div className="flex flex-col md:flex-row items-center gap-4 w-full md:w-auto">
+              <Link
+                href={"mailto:mizan.rahman.cs@gmail.com"}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center gap-2 border-gray-900 bg-gray-900 px-6 border rounded-xl w-full md:w-[180px] h-12 text-white hover:bg-gray-800 transition-colors"
+              >
+                <span className="font-semibold uppercase">Email Me</span>
                 <ArrowUpRightIcon className="size-4" />
-              </button>
+              </Link>
+
+              <Link
+                href="tel:+8801719402933"
+                className="inline-flex items-center justify-center gap-2 border-gray-900 bg-gray-900 px-6 border rounded-xl w-full md:w-[180px] h-12 text-white hover:bg-gray-800 transition-colors"
+              >
+                <span className="font-semibold uppercase">Call Me</span>
+                <ArrowUpRightIcon className="size-4" />
+              </Link>
             </div>
           </div>
         </div>
