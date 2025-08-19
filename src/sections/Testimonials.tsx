@@ -13,19 +13,19 @@ const testimonials = [
   {
     name: "Md. Mannan",
     position: "Marketing Head @ Tens Agro",
-    text: "Working with Mizan was a game-changer for our company. Their innovative web app streamlined our ordering system, transforming a backlogged process into an efficient, fully automated solution. Their professionalism and technical expertise exceeded our expectations. Highly recommended!",
+    text: "Working with Mizan was a game-changer for our company. His innovative web app streamlined our ordering system, transforming a backlogged process into an efficient, fully automated solution. His professionalism and technical expertise exceeded our expectations. Highly recommended!",
     avatar: memojiAvatar1,
   },
   {
     name: "Jiyaul Islam",
     position: "Bank Officer @ Janata Bank PLC.",
-    text: "I’ve always wanted a way to preserve and share the memories of those from our village who passed away. Mizan turned this vision into reality with a beautifully designed web app. It’s intuitive, efficient, and ensures these records are accessible to everyone. Their professionalism and technical expertise were exceptional, and I’m thrilled with the result. Highly recommended!",
+    text: "I’ve always wanted a way to preserve and share the memories of those from our village who passed away. Mizan turned this vision into reality with a beautifully designed web app. It’s intuitive, efficient, and ensures these records are accessible to everyone. His professionalism and technical expertise was exceptional, and I’m thrilled with the result.",
     avatar: memojiAvatar2,
   },
   {
     name: "Sohag Hossain",
     position: "Pesticide Seller @ Sohag Rayhan Traders",
-    text: "The machine-learning model developed by Mizan has revolutionized how I diagnose rice tree diseases. It’s accurate, efficient, and saves me a tremendous amount of time. Their innovation has made a significant impact on my work. Highly recommended!",
+    text: "The machine-learning model developed by Mizan has revolutionized how I diagnose rice leaf diseases. It’s accurate, efficient, and saves me a tremendous amount of time. His innovation has made a significant impact on my work. Highly recommended!",
     avatar: memojiAvatar3,
   },
   {
@@ -34,12 +34,12 @@ const testimonials = [
     text: "During Mizan’s 6-month internship at Cling Info Tech, they showcased exceptional backend development skills. Their ability to grasp complex concepts quickly and deliver reliable solutions impressed the entire team. Their dedication, problem-solving abilities, and eagerness to learn made them a valuable asset. I have no doubt they will excel in their career as a software developer.",
     avatar: memojiAvatar4,
   },
-  {
-    name: "Michael Brown",
-    position: "Director of IT @ MegaCorp",
-    text: "Alex's work on our website has been nothing short of exceptional. He's a talented developer who is also a great communicator. We highly recommend him.",
-    avatar: memojiAvatar5,
-  },
+  // {
+  //   name: "Michael Brown",
+  //   position: "Director of IT @ MegaCorp",
+  //   text: "Mizan's work on our website has been nothing short of exceptional. He's a talented developer who is also a great communicator. We highly recommend him.",
+  //   avatar: memojiAvatar5,
+  // },
 ];
 
 export const TestimonialsSection = () => {
